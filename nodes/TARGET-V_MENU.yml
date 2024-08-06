@@ -9,7 +9,7 @@ operation:
   deployEnabled: true
   description: ""
   isMultisource: false
-  locationName: TARGET
+  locationName: SILVER
   materializationType: view
   metadata:
     appliedNodeTests: []
@@ -273,7 +273,7 @@ operation:
         customSQL:
           customSQL: ""
         dependencies:
-          - locationName: TARGET
+          - locationName: SILVER
             nodeName: DIM_MENU
         join:
           joinCondition: FROM {{ ref('TARGET', 'DIM_MENU') }} "DIM_MENU"

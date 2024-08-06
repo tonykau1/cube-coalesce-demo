@@ -12,7 +12,7 @@ operation:
   deployEnabled: true
   description: ""
   isMultisource: false
-  locationName: TARGET
+  locationName: SILVER
   materializationType: table
   metadata:
     appliedNodeTests: []
@@ -409,13 +409,13 @@ operation:
         customSQL:
           customSQL: ""
         dependencies:
-          - locationName: TARGET
+          - locationName: SILVER
             nodeName: DIM_CUSTOMER
-          - locationName: TARGET
+          - locationName: SILVER
             nodeName: DIM_LOCATION
-          - locationName: TARGET
+          - locationName: SILVER
             nodeName: DIM_MENU
-          - locationName: TARGET
+          - locationName: SILVER
             nodeName: STG_ORDERS
         join:
           joinCondition: |-

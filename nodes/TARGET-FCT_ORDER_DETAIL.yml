@@ -10,7 +10,7 @@ operation:
   deployEnabled: true
   description: ""
   isMultisource: false
-  locationName: TARGET
+  locationName: SILVER
   materializationType: table
   metadata:
     appliedNodeTests: []
@@ -439,7 +439,7 @@ operation:
         customSQL:
           customSQL: ""
         dependencies:
-          - locationName: TARGET
+          - locationName: SILVER
             nodeName: STG_ORDERS_DIM_LOOKUP
         join:
           joinCondition: FROM {{ ref('TARGET', 'STG_ORDERS_DIM_LOOKUP') }} "STG_ORDERS_DIM_LOOKUP"

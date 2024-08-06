@@ -9,7 +9,7 @@ operation:
   deployEnabled: true
   description: ""
   isMultisource: false
-  locationName: TARGET
+  locationName: SILVER
   materializationType: view
   metadata:
     appliedNodeTests: []
@@ -430,7 +430,7 @@ operation:
         customSQL:
           customSQL: ""
         dependencies:
-          - locationName: TARGET
+          - locationName: SILVER
             nodeName: FCT_ORDER_DETAIL
         join:
           joinCondition: FROM {{ ref('TARGET', 'FCT_ORDER_DETAIL') }} "FCT_ORDER_DETAIL"

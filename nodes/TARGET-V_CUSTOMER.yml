@@ -9,7 +9,7 @@ operation:
   deployEnabled: true
   description: ""
   isMultisource: false
-  locationName: TARGET
+  locationName: SILVER
   materializationType: view
   metadata:
     appliedNodeTests: []
@@ -343,7 +343,7 @@ operation:
         customSQL:
           customSQL: ""
         dependencies:
-          - locationName: TARGET
+          - locationName: SILVER
             nodeName: DIM_CUSTOMER
         join:
           joinCondition: FROM {{ ref('TARGET', 'DIM_CUSTOMER') }} "DIM_CUSTOMER"

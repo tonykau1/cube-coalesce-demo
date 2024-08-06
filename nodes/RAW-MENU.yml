@@ -6,7 +6,7 @@ operation:
   dataset: ""
   deployEnabled: true
   description: null
-  locationName: RAW
+  locationName: RAW_POS
   metadata:
     columns:
       - acceptedValues:
