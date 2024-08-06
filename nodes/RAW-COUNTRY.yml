@@ -143,7 +143,7 @@ operation:
         transform: ""
         uniqueKey: false
     join:
-      joinCondition: FROM {{ ref('RAW', 'COUNTRY') }}
+      joinCondition: FROM {{ ref('RAW_POC', 'COUNTRY') }}
   name: COUNTRY
   schema: ""
   sqlType: Source

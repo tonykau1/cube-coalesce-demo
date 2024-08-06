@@ -181,7 +181,7 @@ operation:
         transform: ""
         uniqueKey: false
     join:
-      joinCondition: FROM {{ ref('RAW', 'ORDER_DETAIL_38M') }}
+      joinCondition: FROM {{ ref('RAW_POC', 'ORDER_DETAIL_38M') }}
   name: ORDER_DETAIL_38M
   schema: ""
   sqlType: Source

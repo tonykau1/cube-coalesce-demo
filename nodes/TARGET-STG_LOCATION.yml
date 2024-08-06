@@ -125,7 +125,7 @@ operation:
           - locationName: RAW
             nodeName: LOCATION
         join:
-          joinCondition: FROM {{ ref('RAW', 'LOCATION') }} "LOCATION"
+          joinCondition: FROM {{ ref('RAW_POC', 'LOCATION') }} "LOCATION"
         name: STG_LOCATION
         noLinkRefs: []
   name: STG_LOCATION

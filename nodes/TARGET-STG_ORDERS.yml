@@ -374,7 +374,7 @@ operation:
             nodeName: ORDER_HEADER_14M
         join:
           joinCondition: |-
-            FROM {{ ref('RAW', 'ORDER_HEADER_14M') }} "ORDER_HEADER_14M"
+            FROM {{ ref('RAW_POC', 'ORDER_HEADER_14M') }} "ORDER_HEADER_14M"
             INNER JOIN {{ ref('RAW', 'ORDER_DETAIL_38M') }} "ORDER_DETAIL_38M"
             ON "ORDER_HEADER_14M"."ORDER_ID" = "ORDER_DETAIL_38M"."ORDER_ID"
         name: STG_ORDERS

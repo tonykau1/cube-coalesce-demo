@@ -219,7 +219,7 @@ operation:
         transform: ""
         uniqueKey: false
     join:
-      joinCondition: FROM {{ ref('RAW', 'MENU') }}
+      joinCondition: FROM {{ ref('RAW_POC', 'MENU') }}
   name: MENU
   schema: ""
   sqlType: Source

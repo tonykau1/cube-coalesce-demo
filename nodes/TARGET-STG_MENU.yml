@@ -181,7 +181,7 @@ operation:
           - locationName: RAW
             nodeName: MENU
         join:
-          joinCondition: FROM {{ ref('RAW', 'MENU') }} "MENU"
+          joinCondition: FROM {{ ref('RAW_POC', 'MENU') }} "MENU"
         name: STG_MENU
         noLinkRefs: []
   name: STG_MENU

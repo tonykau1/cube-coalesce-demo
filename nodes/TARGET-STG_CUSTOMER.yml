@@ -257,7 +257,7 @@ operation:
           - locationName: RAW
             nodeName: CUSTOMER_LOYALTY
         join:
-          joinCondition: FROM {{ ref('RAW', 'CUSTOMER_LOYALTY') }} "CUSTOMER_LOYALTY"
+          joinCondition: FROM {{ ref('RAW_CUSTOMER', 'CUSTOMER_LOYALTY') }} "CUSTOMER_LOYALTY"
         name: STG_CUSTOMER
         noLinkRefs: []
   name: STG_CUSTOMER

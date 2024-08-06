@@ -295,7 +295,7 @@ operation:
         transform: ""
         uniqueKey: false
     join:
-      joinCondition: FROM {{ ref('RAW', 'CUSTOMER_LOYALTY') }}
+      joinCondition: FROM {{ ref('RAW_CUSTOMER', 'CUSTOMER_LOYALTY') }}
   name: CUSTOMER_LOYALTY
   schema: ""
   sqlType: Source

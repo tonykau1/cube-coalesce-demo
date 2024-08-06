@@ -314,7 +314,7 @@ operation:
         transform: ""
         uniqueKey: false
     join:
-      joinCondition: FROM {{ ref('RAW', 'ORDER_HEADER_14M') }}
+      joinCondition: FROM {{ ref('RAW_POC', 'ORDER_HEADER_14M') }}
   name: ORDER_HEADER_14M
   schema: ""
   sqlType: Source
