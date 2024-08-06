@@ -1,0 +1,6 @@
+excludeSelector: ""
+fileVersion: 1
+id: "13"
+includeSelector: "+{ location: TARGET name: FCT_ORDER_DETAIL }"
+name: Fact Table Job
+type: Job

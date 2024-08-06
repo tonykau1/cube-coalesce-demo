@@ -1,0 +1,11 @@
+fileVersion: 1
+id: "6"
+mappingDefinitions:
+  RAW:
+    database: AWOODCOCK_DEV
+    schema: SOURCE_DATA
+  TARGET:
+    database: AWOODCOCK_QA
+    schema: REPORTING
+name: Testing Environment
+type: Environment
